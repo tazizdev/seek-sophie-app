@@ -1,0 +1,40 @@
+.carousel-one {
+  background: url('sliders/bridge1.jpg') center center no-repeat;
+  background-size: cover;
+}
+.carousel-two {
+  background: url('sliders/bridge6.jpg') center center no-repeat;
+  background-size: cover;
+}
+.carousel-three {
+  background: url('sliders/bridge3.jpg') center center no-repeat;
+  background-size: cover;
+}
+.carousel-four {
+  background: url('sliders/bridge4.jpg') center center no-repeat;
+  background-size: cover;
+}
+.carousel-five {
+  background: url('sliders/bridge5.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+#daily-carousel-indicators2 {
+  .carousel-one,
+  .carousel-two,
+  .carousel-three,
+  .carousel-four,
+  .carousel-five {
+    min-height: 35vh;
+  }
+}
+
+#header-carousel-indicator {
+  .carousel-one,
+  .carousel-two,
+  .carousel-three,
+  .carousel-four,
+  .carousel-five {
+    min-height: 70vh;
+  }
+}
