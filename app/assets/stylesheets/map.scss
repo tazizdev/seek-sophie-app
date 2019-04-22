@@ -1,0 +1,168 @@
+#maps {
+  border-top: 1px solid #ccc;
+  .gm-style-iw button {
+    display: none !important;
+  }
+  .gm-style .gm-style-iw-c {
+    border-radius: 0 !important;
+  }
+  #content {
+    width: 14rem;
+    height: 15rem;
+    .description-container {
+      position: absolute;
+      bottom: 0;
+      .map-category {
+        position: absolute;
+        top: -186px;
+        right: -16px;
+        background-color: #df3c31;
+        padding: .25rem;
+        color: #fff;
+      }
+    }
+    #map-carousel-indicators {
+      height: 11rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      .carousel-inner {
+        .carousel-item {
+          min-height: auto !important;
+        }
+      }
+    }
+  }
+}
+.map-container {
+  height: 500px;
+  width: 100%;
+  .map-responsive {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+  }
+}
+.overflow-single {
+  background: #fff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  margin: 1rem 0;
+    .first-map-title {
+      color: #000;
+    }
+    i {
+      color: #007BFB;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: normal;
+      color: #007BFB;
+    }
+    .stars {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 24px;
+      color: #007BFB;
+    }
+    .stars-number {
+      font-weight: 400;
+    }
+    .miles {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333333;
+    }
+    .published-date {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      color: #333333;
+    }
+    .travel-pic {
+      background-color: #DE1010;
+      line-height: 1;
+      text-align: center;
+      i {
+        color: #fff;
+        font-size: 9px;
+      }
+      span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 17px;
+        color: #FFFFFF;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+    }
+    .bucket-list {
+      background-color: rgb(0, 158, 86);
+      line-height: 1;
+      text-align: center;
+      i {
+        color: #fff;
+        font-size: 9px;
+      }
+      span {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 17px;
+        color: #FFFFFF;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+      }
+    }
+}
+.related-topics {
+  overflow-y: auto;
+  height: 500px;
+  width: 100%;
+
+  .top-adventures {
+    font-size: 21px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #212529;
+  }
+}
+.firstHeading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: normal;
+  color: #007BFB;
+}
+#bodyContent {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: normal;
+  color: #000000;
+}
+.dollars-currency {
+  color: #007BFB;
+}
+.map-img {
+  max-width: 40% !important;
+  width: 100%;
+}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+}
+.view-all-adventures {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #007BFB;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+}
