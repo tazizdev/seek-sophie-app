@@ -1,0 +1,65 @@
+#header {
+  .navbar-brand {
+    img {
+      height: auto;
+      width: 50%;
+    }
+  }
+  .contact-us {
+    background: #333;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 0.5rem 0;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  .navbar-collapse {
+    margin-left: -5%;
+    padding: 1rem 0;
+
+    .nav-link {
+      text-transform: uppercase;
+      padding: 0 1rem;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 2.5rem;
+      color: #212529;
+    }
+    .header-search {
+      border: 1px solid #EBEBEB;
+      border-radius: 2px;
+    }
+    input.header-search::-webkit-input-placeholder, .form-control::-webkit-input-placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+    input.header-search::-moz-placeholder, .form-control::-moz-placeholder {  /* Firefox 19+ */
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+    input.header-search:-ms-input-placeholder, .form-control::-moz-placeholder {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+    .relative-form {
+      position: relative;
+      i {
+        position: absolute;
+        right: 1rem;
+      }
+    }
+  }
+}
