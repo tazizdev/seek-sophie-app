@@ -1,0 +1,36 @@
+<section id="daily-program" class="pb-4">
+    <nav>
+      <div class="nav nav-tabs border-0" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active mr-1" id="nav-regular1-tab" data-toggle="tab" href="#nav-regular1" role="tab" aria-controls="nav-regular1" aria-selected="true">3 days regular descent</a>
+        <a class="nav-item nav-link mr-1" id="nav-regular2-tab" data-toggle="tab" href="#nav-regular2" role="tab" aria-controls="nav-regular2" aria-selected="false">2 days regular descent</a>
+        <a class="nav-item nav-link mr-1" id="nav-regular3-tab" data-toggle="tab" href="#nav-regular3" role="tab" aria-controls="nav-regular3" aria-selected="false">2 days walk the torg</a>
+        <a class="nav-item nav-link" id="nav-regular4-tab" data-toggle="tab" href="#nav-regular4" role="tab" aria-controls="nav-regular4" aria-selected="false">2 days low’s peak</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane container no-gutters mx-auto fade show active" id="nav-regular1" role="tabpanel" aria-labelledby="nav-regular1-tab">
+        <div class="regular-content">
+          <%= render "partials/daily-carousel" %>
+
+          <div class="featured-guide">
+            <h3 class="mt-5 mb-4">FEATURED GUIDES</h3>
+            <%= render "partials/daily-river" %>
+            <%= render "partials/daily-nasalis" %>
+            <%= render "partials/daily-trek" %>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="nav-regular2" role="tabpanel" aria-labelledby="nav-regular2-tab">
+          ...
+      </div>
+
+      <div class="tab-pane fade" id="nav-regular3" role="tabpanel" aria-labelledby="nav-regular3-tab">
+          ...
+      </div>
+
+      <div class="tab-pane fade" id="nav-regular4" role="tabpanel" aria-labelledby="nav-regular3-tab">
+          ...
+      </div>
+    </div>
+</section>

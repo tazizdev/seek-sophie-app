@@ -1,0 +1,93 @@
+<div class="row no-gutters align-items-center features-border last-border">
+  <div class="col-lg-2 col-sm-12 text-center">
+    <%= image_tag 'logo.svg' %>
+  </div>
+  <div class="col-lg-6 daily-short-content">
+    <ul class="features-title pl-0">
+      <li>
+        <h4>Trek Finder Tours</h4>
+      </li>
+    </ul>
+    <ul class="features-title pl-0">
+      <li>
+        <i class="fas fa-star"></i>
+        <span class="stars-number">4.93</span>
+        <span class="stars">(58)</span>
+      </li>
+      <li><i class="fal fa-hourglass"></i>7 years experience</li>
+      <li><i class="far fa-comments"></i>Speaks English, Bahasa. Chinese*</li>
+    </ul>
+    <p class="features-details">“Super friendly and great at planning, you’ll be in good hands!”</p>
+  </div>
+  <div class="col-lg-4 d-flex align-items-center">
+    <div class="col-lg-10 col-sm-10 pl-0">
+      <ul class="rating">
+        <li><span>US$452</span></li>
+        <li>Per person</li>
+        <li>Includes Meals & Accommodation,</li>
+        <li>Transport, Free cancellation</li>
+      </ul>
+    </div>
+    <div class="col-lg-2 text-center">
+      <i class="fal fa-chevron-down feature-collapse" data-toggle="collapse" href="#whats-included-trek"></i>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="collapse" id="whats-included-trek">
+      <div class="row services d-flex ">
+        <div class="col-lg-8 d-flex align-items-center ml-auto pl-0">
+          <div class="row">
+            <div class="col-lg-7 col-sm-12 desc-responsive">
+              <h5 class="my-4">WHAT’S INCLUDED</h5>
+              <div class="row">
+                <div class="col-lg-1 col-sm-12">
+                  <i class="fal fa-bed"></i>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <p>1 night dormitory accommodation at Laban Rata Resthouse</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-1 col-sm-12">
+                  <i class="far fa-truck"></i>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <p>Pick up at your hotel in Kota Kinabalu town at 6am on the activity start date and drop-off at 5pm on the following day at your hotel.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-1 col-sm-12">
+                  <i class="far fa-utensils"></i>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <p>Meals provided</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <h5 class="my-4">EXTRAS</h5>
+              <ul class="highlights p-0">
+                <li>Entrance fees</li>
+                <li>Insurance</li>
+                <li>State park guide</li>
+                <li>Climbing permit</li>
+                <li>Certificate of completion</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-sm-12 view-details">
+          <button type="button" class="btn btn-outline-primary">View Details</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  $('.collapse').on('shown.bs.collapse', function() {
+    $(this).closest('.no-gutters').find(".feature-collapse").removeClass("fa-chevron-down").addClass("fa-chevron-up");
+  }).on('hidden.bs.collapse', function() {
+    $(this).closest('.no-gutters').find(".feature-collapse").removeClass("fa-chevron-up").addClass("fa-chevron-down");
+  });
+</script>
