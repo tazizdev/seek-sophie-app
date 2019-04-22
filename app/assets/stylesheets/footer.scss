@@ -1,0 +1,76 @@
+#footer, .copy-rights {
+  border-top: 1px solid rgb(204, 204, 204);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 17px;
+
+  a {
+    color: #212529;
+  }
+}
+
+#footer {
+  .list-spaced {
+    p {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #212529;
+    }
+    li>h5 {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 23px;
+      color: #212529;
+    }
+    li>a {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #555555;
+    }
+    .form-control {
+      border: 1px solid #EBEBEB;
+      border-radius: 2px;
+    }
+    .btn-signup {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+    }
+    input.search-input::-webkit-input-placeholder, .form-control::-webkit-input-placeholder {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+    input.search-input::-moz-placeholder, .form-control::-moz-placeholder {  /* Firefox 19+ */
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+    input.search-input:-ms-input-placeholder, .form-control::-moz-placeholder {
+      font-family: 'Lato';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #666666;
+    }
+  }
+}
